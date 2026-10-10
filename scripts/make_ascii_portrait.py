@@ -39,10 +39,10 @@ def prepare_image():
 
     # Include the full head and upper body
     image = image.crop((
-        int(w * 0.08),   # Left
-        int(h * 0.04),   # Top: keep all your hair
-        int(w * 0.92),   # Right
-        int(h * 0.66)    # Bottom: remove most of the arms and hands
+        int(w * 0.05),
+        int(h * 0.20),
+        int(w * 0.95),
+        int(h * 0.82)
     ))
 
 

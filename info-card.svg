@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-width="850" height="350" viewBox="0 0 850 350">
-<rect width="850" height="350" rx="14" fill="#0d1117"/>
-<rect x="12" y="12" width="826" height="326" rx="10"
+width="850" height="700" viewBox="0 0 850 700">
+<rect width="850" height="700" rx="14" fill="#0d1117"/>
+<rect x="12" y="12" width="826" height="676" rx="10"
       fill="#161b22" stroke="#30363d"/>
 
 <circle cx="35" cy="35" r="6" fill="#ff5f56"/>
@@ -13,141 +13,184 @@ width="850" height="350" viewBox="0 0 850 350">
 youssef@github:~ — neofetch
 </text>
 
-<line x1="28" y1="57" x2="822" y2="57"
-      stroke="#30363d"/>
+<line x1="28" y1="57" x2="822" y2="57" stroke="#30363d"/>
 
 <style>
 .label {
     font-family: monospace;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
 }
 .value {
     font-family: monospace;
-    font-size: 15px;
+    font-size: 16px;
+}
+.section {
+    font-family: monospace;
+    font-size: 16px;
+    font-weight: bold;
+}
+.tag {
+    font-family: monospace;
+    font-size: 14px;
 }
 </style>
-\n
+
+<text x="35" y="91" fill="#3fb950"
+      font-family="monospace" font-size="14">
+$ whoami &amp;&amp; neofetch
+</text>
+
+
 <g opacity="0">
   <animate attributeName="opacity"
-           values="0;1;1"
-           keyTimes="0;0.12;1"
-           dur="6s"
-           begin="0.0s"
+           values="0;1;1" keyTimes="0;0.12;1"
+           dur="6s" begin="0.0s"
            repeatCount="indefinite"/>
-
-  <text x="35" y="91" class="label" fill="#3fb950">
-    Name:
+  <text x="38" y="133" class="label" fill="#3fb950">
+    NAME:
   </text>
-
-  <text x="185" y="91" class="value" fill="#79c0ff">
+  <text x="205" y="133" class="value" fill="#79c0ff">
     Mohammed Youssef Chafiki
   </text>
 </g>
-\n
+
+
 <g opacity="0">
   <animate attributeName="opacity"
-           values="0;1;1"
-           keyTimes="0;0.12;1"
-           dur="6s"
-           begin="0.25s"
+           values="0;1;1" keyTimes="0;0.12;1"
+           dur="6s" begin="0.2s"
            repeatCount="indefinite"/>
-
-  <text x="35" y="125" class="label" fill="#3fb950">
-    Education:
+  <text x="38" y="181" class="label" fill="#3fb950">
+    EDUCATION:
   </text>
-
-  <text x="185" y="125" class="value" fill="#d2a8ff">
+  <text x="205" y="181" class="value" fill="#d2a8ff">
     Al Akhawayn University
   </text>
 </g>
-\n
+
+
 <g opacity="0">
   <animate attributeName="opacity"
-           values="0;1;1"
-           keyTimes="0;0.12;1"
-           dur="6s"
-           begin="0.5s"
+           values="0;1;1" keyTimes="0;0.12;1"
+           dur="6s" begin="0.4s"
            repeatCount="indefinite"/>
-
-  <text x="35" y="159" class="label" fill="#3fb950">
-    Major:
+  <text x="38" y="229" class="label" fill="#3fb950">
+    MAJOR:
   </text>
-
-  <text x="185" y="159" class="value" fill="#79c0ff">
+  <text x="205" y="229" class="value" fill="#79c0ff">
     Computer Science
   </text>
 </g>
-\n
+
+
 <g opacity="0">
   <animate attributeName="opacity"
-           values="0;1;1"
-           keyTimes="0;0.12;1"
-           dur="6s"
-           begin="0.75s"
+           values="0;1;1" keyTimes="0;0.12;1"
+           dur="6s" begin="0.6000000000000001s"
            repeatCount="indefinite"/>
-
-  <text x="35" y="193" class="label" fill="#3fb950">
-    Focus:
+  <text x="38" y="277" class="label" fill="#3fb950">
+    FOCUS:
   </text>
-
-  <text x="185" y="193" class="value" fill="#3fb950">
+  <text x="205" y="277" class="value" fill="#3fb950">
     Cybersecurity &amp; Software Development
   </text>
 </g>
-\n
-<g opacity="0">
-  <animate attributeName="opacity"
-           values="0;1;1"
-           keyTimes="0;0.12;1"
-           dur="6s"
-           begin="1.0s"
-           repeatCount="indefinite"/>
 
-  <text x="35" y="227" class="label" fill="#3fb950">
-    Languages:
-  </text>
 
-  <text x="185" y="227" class="value" fill="#ffa657">
-    Python, C, Java, Bash
-  </text>
-</g>
-\n
-<g opacity="0">
-  <animate attributeName="opacity"
-           values="0;1;1"
-           keyTimes="0;0.12;1"
-           dur="6s"
-           begin="1.25s"
-           repeatCount="indefinite"/>
+<line x1="35" y1="315" x2="815" y2="315" stroke="#30363d"/>
+<text x="38" y="350" class="section" fill="#79c0ff">
+&gt; TECH STACK
+</text>
 
-  <text x="35" y="261" class="label" fill="#3fb950">
-    Tools:
-  </text>
+<text x="38" y="395" class="label" fill="#8b949e">LANGUAGES</text>
 
-  <text x="185" y="261" class="value" fill="#56d4dd">
-    Linux, Git, Next.js, SQL
-  </text>
-</g>
-\n
-<g opacity="0">
-  <animate attributeName="opacity"
-           values="0;1;1"
-           keyTimes="0;0.12;1"
-           dur="6s"
-           begin="1.5s"
-           repeatCount="indefinite"/>
+<rect x="38" y="409" width="80" height="34"
+      rx="7" fill="#0d1117" stroke="#ffa657" stroke-opacity=".65"/>
+<text x="51" y="432" class="tag" fill="#ffa657">
+  Python
+</text>
 
-  <text x="35" y="295" class="label" fill="#3fb950">
-    Projects:
-  </text>
 
-  <text x="185" y="295" class="value" fill="#d2a8ff">
-    StudentFlow, LogAnalyzer, Connect 4
-  </text>
-</g>
-\n
-<text x="35" y="323" fill="#8b949e"
+<rect x="130" y="409" width="35" height="34"
+      rx="7" fill="#0d1117" stroke="#ffa657" stroke-opacity=".65"/>
+<text x="143" y="432" class="tag" fill="#ffa657">
+  C
+</text>
+
+
+<rect x="177" y="409" width="62" height="34"
+      rx="7" fill="#0d1117" stroke="#ffa657" stroke-opacity=".65"/>
+<text x="190" y="432" class="tag" fill="#ffa657">
+  Java
+</text>
+
+
+<rect x="251" y="409" width="62" height="34"
+      rx="7" fill="#0d1117" stroke="#ffa657" stroke-opacity=".65"/>
+<text x="264" y="432" class="tag" fill="#ffa657">
+  Bash
+</text>
+
+<text x="38" y="485" class="label" fill="#8b949e">TOOLS</text>
+
+<rect x="38" y="499" width="71" height="34"
+      rx="7" fill="#0d1117" stroke="#56d4dd" stroke-opacity=".65"/>
+<text x="51" y="522" class="tag" fill="#56d4dd">
+  Linux
+</text>
+
+
+<rect x="121" y="499" width="53" height="34"
+      rx="7" fill="#0d1117" stroke="#56d4dd" stroke-opacity=".65"/>
+<text x="134" y="522" class="tag" fill="#56d4dd">
+  Git
+</text>
+
+
+<rect x="186" y="499" width="89" height="34"
+      rx="7" fill="#0d1117" stroke="#56d4dd" stroke-opacity=".65"/>
+<text x="199" y="522" class="tag" fill="#56d4dd">
+  Next.js
+</text>
+
+
+<rect x="287" y="499" width="53" height="34"
+      rx="7" fill="#0d1117" stroke="#56d4dd" stroke-opacity=".65"/>
+<text x="300" y="522" class="tag" fill="#56d4dd">
+  SQL
+</text>
+
+
+<line x1="35" y1="557" x2="815" y2="557" stroke="#30363d"/>
+<text x="38" y="591" class="section" fill="#d2a8ff">
+&gt; FEATURED PROJECTS
+</text>
+
+
+<rect x="38" y="612" width="125" height="34"
+      rx="7" fill="#0d1117" stroke="#d2a8ff" stroke-opacity=".65"/>
+<text x="51" y="635" class="tag" fill="#d2a8ff">
+  StudentFlow
+</text>
+
+
+<rect x="175" y="612" width="125" height="34"
+      rx="7" fill="#0d1117" stroke="#d2a8ff" stroke-opacity=".65"/>
+<text x="188" y="635" class="tag" fill="#d2a8ff">
+  LogAnalyzer
+</text>
+
+
+<rect x="312" y="612" width="107" height="34"
+      rx="7" fill="#0d1117" stroke="#d2a8ff" stroke-opacity=".65"/>
+<text x="325" y="635" class="tag" fill="#d2a8ff">
+  Connect 4
+</text>
+
+
+<line x1="35" y1="657" x2="815" y2="657" stroke="#30363d"/>
+<text x="38" y="678" fill="#3fb950"
       font-family="monospace" font-size="12">
 $ system status: online
 </text>
