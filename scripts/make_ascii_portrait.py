@@ -11,7 +11,7 @@ OUTPUT = ROOT / "ascii-portrait.svg"
 
 # Portrait resolution
 COLS = 100
-ROWS = 95
+ROWS = 65
 
 # Character spacing
 CELL_W = 8
@@ -39,11 +39,12 @@ def prepare_image():
 
     # Include the full head and upper body
     image = image.crop((
-        int(w * 0.05),
-        int(h * 0.02),
-        int(w * 0.95),
-        int(h * 0.88)
+        int(w * 0.08),   # Left
+        int(h * 0.04),   # Top: keep all your hair
+        int(w * 0.92),   # Right
+        int(h * 0.66)    # Bottom: remove most of the arms and hands
     ))
+
 
     image = image.resize(
         (COLS, ROWS),
